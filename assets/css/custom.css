@@ -27,7 +27,7 @@
     color: #59605f;
 }
 .popup{
-    position: absolute;
+    position: fixed;
     top:-150%;
     left:50%;
     opacity: 0;
