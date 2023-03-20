@@ -34,8 +34,7 @@
     transform: translate(-50% , -50%) scale(1.25);
     width: 380px;
     padding: 20px 30px;
-    background-color: #e3ebff;
-background-image: url("https://www.transparenttextures.com/patterns/black-thread.png");
+    background-color:white;
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     transition: top 0ms ease-in-out 200ms,
@@ -68,6 +67,20 @@ background-image: url("https://www.transparenttextures.com/patterns/black-thread
     margin: 30px;
     font-weight: 400;
     color: #59605f;
+}
+#overlay{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0 ,0 ,0,.5);
+    pointer-events: none;
+}
+#overlay.activate{
+    opacity: 1;
+   pointer-events: all;
 }
 
 
@@ -131,4 +144,65 @@ background-image: url("https://www.transparenttextures.com/patterns/black-thread
     }
  
   }
+
+
+
+  /********************cart page*************/
+  @media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    
+    .bg-grey {
+    background-color: #eae8e8;
+    }
+    
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+    
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+
+
+    /*************Register button****************/
+    .Login-btn{
+        position: relative;
+        top: -125px;
+        left: 250px;
+        padding: 10px 60px;
+    }
+    /* *************cart page*************** */
+    .btn-color{
+        background-color: azure;
+    }
+    .btn-color:hover{
+        background-color: #a0b8b5;
+    }
+
+    .price-card{
+        margin-top: 3rem;
+    }
+
+    
+        
 

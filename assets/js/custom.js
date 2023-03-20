@@ -1,24 +1,27 @@
 
+// starts of pop up card
+
 const elements = document.querySelectorAll(".page").length;
 var removerd = false;
+const overlay = document.querySelector("#overlay");
 
 document.querySelector(".popup .close-btn").addEventListener("click",function(){
     document.querySelector(".popup ").classList.remove("active");
-});
 
+});
 
     for (let i = 0; i < elements; i++) {
         document.querySelectorAll(".page")[i].addEventListener("click",function (event){
             if (removerd) {
-                document.querySelector(".popup").classList.add("active");
+                document.querySelector(".popup").classList.add("active");  
             }else{
                 document.querySelectorAll(".page")[i].classList.remove("canvas");
                 removerd = true;
-            }
-            
+            } 
         });
-        
     }
+
+// end pop up------------------------------------------
 
 
 
