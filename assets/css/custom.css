@@ -191,6 +191,13 @@
         left: 250px;
         padding: 10px 60px;
     }
+    @media (max-width: 991px){
+        .Login-btn{
+            position: relative;
+            left: 0;
+            margin: 9rem 9rem 0 9rem;
+        }
+        }
     /* *************cart page*************** */
     .btn-color{
         background-color: azure;

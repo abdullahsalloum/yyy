@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/loginstye.css">
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <title>Log in</title>
+    <title>Register</title>
 </head>
 <body>
     
@@ -15,8 +15,15 @@
 		<div class="form-box">
 			<div class="form-value">
 				<form action="">
-					<h2>Login</h2>
-					
+					<h2 style="padding-top: 3rem;">Regster</h2>
+                    <div class="inputBox">
+						<input type="text" required>
+						<label for="">First name</label>
+					</div>
+					<div class="inputBox">
+						<input type="text" required>
+						<label for="">Last name</label>
+					</div>
 					<div class="inputBox">
 						<ion-icon name="mail-outline"></ion-icon>
 						<input type="email" required>
@@ -31,16 +38,13 @@
 						<label for=""><input type="checkbox">Remember Me <a href="#">Forget Password</a></label>
 						
 					</div>
-					<button>Login</button>
+					<button>Register</button>
 					<div class="register">
 						<p>Or log in with</p>
 					</div>
-					<div class="icons">
+					<div class="icons" style="padding-bottom: 3rem;">
 						<span><ion-icon class="google-icon" name="logo-google"></ion-icon></span>
 						<span><ion-icon name="call-outline"></ion-icon></span>
-					</div>
-					<div class="register">
-						<p>Don't have account <a href="register.html">register</a></p>
 					</div>
 				</form>
 			</div>
