@@ -188,27 +188,16 @@ background-color: #eae8e8;
     }
 
     .address-form{
-        margin: 4rem;
+       margin: 2rem;
+       padding: 2rem;
+        width: 95%;
+        height: 90vh;
+        background-color: rgb(224, 224, 224);
+        border-radius: 10px;
+        box-shadow: 5px 20px 50px #ffffff;
        
     }
-    
-
-
-    /*************Register button****************/
-    .Login-btn{
-        position: relative;
-        top: -125px;
-        left: 250px;
-        padding: 10px 60px;
-    }
-    @media (max-width: 991px){
-        .Login-btn{
-            position: relative;
-            left: 0;
-            margin: 9rem 9rem 0 9rem;
-        }
-        }
-    /* *************cart page*************** */
+   
     .btn-color{
         background-color: azure;
     }
