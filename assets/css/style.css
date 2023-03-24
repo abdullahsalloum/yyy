@@ -1,0 +1,31 @@
+
+/*-----checkout and cart pages*/
+.Credit-card-form{
+    width: 70%;
+    margin:2rem 13rem 2rem;
+}
+.section-header , .add-btn ,  .trush-btn{
+    color: aliceblue;
+    background-color: #00a796;
+    border: none;
+}
+.checkout-btn{
+    border: none;
+    margin-top: 1.5rem;
+}
+.checkout-btn:hover , .add-btn:hover{
+    background-color: #00685d;
+}
+.minus-btn{
+    background-color: rgb(225, 71, 71);
+    border: none;
+}
+.minus-btn:hover{
+    background-color:rgb(228, 52, 52) ;
+}
+@media only screen and (max-width: 600px) {
+    .Credit-card-form{
+        width: 100%;
+      margin: 0;
+    }
+  }
