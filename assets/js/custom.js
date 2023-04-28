@@ -48,17 +48,6 @@ document.querySelector(".popup .close-btn").addEventListener("click",function(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 // let canvas = document.getElementsByClassName("canvas");
 // let context = canvas.getContext("2d");
 
